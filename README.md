@@ -356,3 +356,12 @@ Implement `derive-exp`, which uses the [power rule](http://en.wikipedia.org/wiki
 
 There are many ways to extend this symbolic differentiation system. For example, you could simplify nested exponentiation expression such as `(^ (^ x 3) 2)`, products of exponents such as `(* (^ x 2) (^ x 3))`, and sums of products such as `(+ (* 2 x) (* 3 x))`. You could apply the [chain rule](https://en.wikipedia.org/wiki/Chain_rule) when deriving exponents, so that expressions like `(derive '(^ (^ x y) 3) 'x)` are handled correctly. Enjoy!
 
+
+
+Finally, you can run all the tests to check your answer again.
+
+```shell
+python3 ok --local
+```
+
+
