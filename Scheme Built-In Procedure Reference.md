@@ -326,7 +326,7 @@ Returns the sum of all `num`s. Returns 0 if there are none. If any `num` is not 
 
 If there is only one `num`, return its negation. Otherwise, return the first `num` minus the sum of the remaining `num`s. If any `num` is not a number, this will error.
 
-**`\*`**
+**`*`**
 
 ```scheme
 (* [num] ...)
@@ -590,7 +590,7 @@ Moves the turtle backward `n` units in its current direction from its current po
 (begin_fill)
 ```
 
-Starts a sequence of moves that outline a shape to be filled. Call `end_fill` to complete the fill.
+Starts a sequence of moves that outline a shape to be filled. Call `end_fill` to compe the fill.
 
 **`bgcolor`**
 
